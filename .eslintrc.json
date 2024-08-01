@@ -1,3 +1,4 @@
+// Add the following code in .eslintrc, replace th existing code after creating the .babelrc
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/babel","next/core-web-vitals"]
 }
